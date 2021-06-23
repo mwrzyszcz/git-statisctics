@@ -9,9 +9,9 @@
     * OpenJDK 11
     * Maven 3+
     
-By default server starting on `8080
-`
-4. Send `GET` request
+By default server starting on `8080`
+
+3. Send `GET` request
 
 #### Example
 `GET http://localhost:8080/api/users/{username}`  - find git user
