@@ -55,9 +55,11 @@ Go to `http://localhost:8080/h2`
 and use credentials like below
 
 ![img_1.png](login_H2.png)
+
 then click `Connect`
 
 You will see
+
 ![img.png](result_H2.png)
 
 
