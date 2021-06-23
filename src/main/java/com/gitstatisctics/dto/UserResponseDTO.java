@@ -1,6 +1,5 @@
 package com.gitstatisctics.dto;
 
-
 import lombok.Builder;
 import lombok.Value;
 

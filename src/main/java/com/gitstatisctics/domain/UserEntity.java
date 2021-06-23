@@ -2,7 +2,6 @@ package com.gitstatisctics.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
@@ -23,7 +22,7 @@ public class UserEntity {
     @Column(nullable = false)
     Long requestCount;
 
-    public void increaseRequestCounter() {
-        this.requestCount += 1;
+    public void increaseRequestCount() {
+        this.requestCount++;
     }
 }

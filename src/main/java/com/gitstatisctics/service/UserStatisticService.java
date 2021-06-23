@@ -34,7 +34,7 @@ public class UserStatisticService {
 
         UserEntity user = userRepository.findByLogin(login)
                 .orElseGet(() -> createNewUser(login));
-        user.increaseRequestCounter();
+        user.increaseRequestCount();
         userRepository.save(user);
 
         return createResponseDTO(userInfo);

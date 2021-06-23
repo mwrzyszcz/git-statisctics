@@ -1,4 +1,4 @@
-## Weather checker service - 5 day forecast
+## Git statistics API - user information
 
 ---
 
@@ -20,6 +20,8 @@ By default server starting on `8080
 
 #### Examples
 `GET http://localhost:8080/api/users/octocat`
+
+`HTTP 200 OK`
 ```json
 {
   "id": 583231,
@@ -32,6 +34,8 @@ By default server starting on `8080
 }
 ```
 `GET http://localhost:8080/api/users/mwrzyszcz`
+
+`HTTP 200 OK`
 ```json
 {
   "id": 24394563,
